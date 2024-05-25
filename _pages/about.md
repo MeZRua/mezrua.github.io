@@ -21,7 +21,7 @@ I focus on communication-efficient distributed optimization (especially in Feder
 News!	
 ======	
 * <img src="../images/new (2).jpg" width="28" align=center> \[2024.3\] The first journal paper has been ACCEPTED by IEEE JSTSP.	
-* <img src="../images/new (2).jpg" width="28" align=center> \[2023.12\] I got the 4th place in Infinity Champions 011 - Alphathon 2023 hold by WorldQuant.	
+* \[2023.12\] I got the 4th place in Infinity Champions 011 - Alphathon 2023 hold by WorldQuant.	
 * \[2023.11\] I join Huawei 2012 Labs (Hangzhou) to work as an AI engineer intern.	
 * \[2023.8\] My first paper ([Adaptive Top-K in SGD for Communication-Efficient Distributed Learning](https://arxiv.org/abs/2210.13532)) has been ACCEPTED for presentation at GLOBECOM 2023.	
 
