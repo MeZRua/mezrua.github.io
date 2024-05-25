@@ -12,7 +12,7 @@ redirect_from:
 
 **If you have any suitable positions, feel free to contact [me](mailto:cs.mzr@my.cityu.edu.hk).**	
 
-I'm a fourth-year PhD student under the supervision of [Dr. XU Weitao](https://www.weitaoxu.com/) in the Department of Computer Science, City University of Hong Kong. I'm a member of [Smart Sensing and Mobile Computing Lab (S2MC)](http://s2mc.site/index.html). I also work closely with [Dr. CAO Xuanyu](http://eexcao.people.ust.hk/) (ECE in HKUST) and [Dr. SONG Linqi](https://sites.google.com/site/aisquaredlab/about-us/linqi) (CS in CityU). Prior to this, I got my B.Eng. and B.Econ. degree in Computer Science and Financial Engineering at the Wu Yuzhang Honors College, [Sichuan University](http://www.scu.edu.cn/). Before, I worked as the Quantitave Researcher Intern in one hedge fund and AI engineer intern in Huawei 2012 Labs.
+I'm a fourth-year PhD student under the supervision of [Dr. XU Weitao](https://www.weitaoxu.com/) in the Department of Computer Science, City University of Hong Kong. I'm a member of [Smart Sensing and Mobile Computing Lab (S2MC)](http://s2mc.site/index.html). I also work closely with [Dr. CAO Xuanyu](http://eexcao.people.ust.hk/) (ECE in HKUST) and [Dr. SONG Linqi](https://sites.google.com/site/aisquaredlab/about-us/linqi) (CS in CityU). Prior to this, I got my B.Eng. and B.Econ. degree in Computer Science and Financial Engineering at the Wu Yuzhang Honors College, [Sichuan University](http://www.scu.edu.cn/). I also worked as the Quantitave Researcher Intern in one hedge fund and AI engineer intern in Huawei 2012 Labs before.
 
 My research interests include distributed machine learning (system), distributed optimization methods and quantitative research.	
 
@@ -26,12 +26,10 @@ News!
 * \[2023.8\] My first paper ([Adaptive Top-K in SGD for Communication-Efficient Distributed Learning](https://arxiv.org/abs/2210.13532)) has been ACCEPTED for presentation at GLOBECOM 2023.	
 
 
-Contact	Contact
-------	------
+Contact	
+------
 * Email: cs.mzr \[at\] my \[dot\] cityu \[dot\] edu \[dot\] hk	
 * Office: Yeung Kin Man Academic Building G2326	
 * Location: City University of Hong Kong, Hong Kong SAR
   
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+
