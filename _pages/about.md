@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-**<font color = "red">Note：I plan to graduate in the first half of 2025 and I'm looking for the AI Infra Engineer (especially related to the acceleration of Inference or/and Training), Machine Learning Engineering/Researcher or Quantitative Researcher/Trader opportunities. My resume can be found here ([resume](https://mezrua.github.io/files/CV.pdf)). </font>**
+**<font color = "red">Note：I plan to graduate in the first half of 2025 and I'm looking for the AI Infra Engineer (especially related to the acceleration of Inference or/and Training), Machine Learning Engineering/Researcher or Quantitative Researcher/Trader opportunities. </font>** My resume can be found here ([resume](https://mezrua.github.io/files/CV.pdf)). 
 
 **If you have any suitable positions, feel free to contact [me](mailto:cs.mzr@my.cityu.edu.hk).**	
 
