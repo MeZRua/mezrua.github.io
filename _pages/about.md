@@ -33,4 +33,5 @@ Contact
 * Location: City University of Hong Kong, Hong Kong SAR
   
 <a href="https://info.flagcounter.com/o3ta"><img src="https://s01.flagcounter.com/map/o3ta/size_m/txt_000000/border_BA0202/pageviews_1/viewers_0/flags_0/" alt="Flag Counter" border="0"></a>
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=7hsz8-nCNNu7dXeUJ2lG0l9CZJg4T9Md6qfj72CS6Cs"></script>
+
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=7hsz8-nCNNu7dXeUJ2lG0l9CZJg4T9Md6qfj72CS6Cs" style="width: 300px; height: 300px;"></script>
