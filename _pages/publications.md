@@ -4,8 +4,11 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+<!--
+**Preprint and Under Review**
+-->
 
-**Preprint**
+
 
 **Journal Papers**
 * Adaptive Top-K in SGD for Communication-Efficient Distributed Learning in Multi-Robot Collaboration <br>
@@ -16,8 +19,8 @@ author_profile: true
   Proceedings of ACM Transactions on Sensor Network (ToSN)
   
 **Conference Papers**
-* Optimal Power Control for Over-the-Air Federated Learning with Gradient Compression
-  **<u>Mengzhe. Ruan</u>**, Yunhe Li, Weizhou Zhang, Linqi Song, Weitao Xu
+* Optimal Power Control for Over-the-Air Federated Learning with Gradient Compression <br>
+  **<u>Mengzhe. Ruan</u>**, Yunhe Li, Weizhou Zhang, Linqi Song, Weitao Xu <br>
   Accepted by The International Conference on Parallel and Distributed Systems (ICPADS 2024)
 * Adaptive Top-K in SGD for Communication-Efficient Distributed Learning <br>
   **<u>M. Ruan</u>**, G. Yan, Y. Xiao, L. Song, W. Xu <br>
