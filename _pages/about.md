@@ -12,11 +12,12 @@ redirect_from:
 
 **If you have any suitable positions, please contact [me](mailto:cs.mzr@my.cityu.edu.hk).**	My resume can be found [here](https://mezrua.github.io/files/CV.pdf). 
 
-I'm a final-year PhD student under the supervision of [Dr. XU Weitao](https://www.weitaoxu.com/) in the Department of Computer Science, City University of Hong Kong. I'm a member of [Smart Sensing and Mobile Computing Lab (S2MC)](http://s2mc.site/index.html). I also work closely with [Dr. CAO Xuanyu](http://eexcao.people.ust.hk/) (ECE in HKUST) and [Dr. SONG Linqi](https://sites.google.com/site/aisquaredlab/about-us/linqi) (CS in CityU). Before this, I got my B.Eng. and B.Econ. degree in Computer Science and Financial Engineering at the Wu Yuzhang Honors College, [Sichuan University](http://www.scu.edu.cn/). I also previously worked as the Quantitative Researcher Intern in one hedge fund and as the AI engineer intern at Huawei 2012 Labs.
+I'm a final-year PhD student under the supervision of [Dr. XU Weitao](https://www.weitaoxu.com/) in the Department of Computer Science, City University of Hong Kong. I'm a member of [Smart Sensing and Mobile Computing Lab (S2MC)](http://s2mc.site/index.html). I also work closely with [Dr. SONG Linqi](https://sites.google.com/site/aisquaredlab/about-us/linqi) (CS in CityU) and [Dr. CAO Xuanyu](http://eexcao.people.ust.hk/) (ECE in HKUST). 
 
-My research interests include distributed machine learning (systems), distributed optimization methods, and quantitative research.	
+Now, I am a Technology Investment Analyst Intern in the Huawei Corporate Development Department (Hubble Technology Investment). I also previously worked as an intern in one hedge fund and Huawei 2012 Labs.
 
-I focus on communication-efficient distributed optimization and decentralized optimization (especially in Federated Learning).
+My research interests include distributed machine learning (systems), distributed optimization methods.	
+I focus on communication-efficient distributed and decentralized optimization (especially in Federated Learning).
 
 News!	
 ======	
