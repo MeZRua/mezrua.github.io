@@ -10,18 +10,18 @@ redirect_from:
 
 **<font color = "red">Note: I plan to graduate in 2025 and I'm mainly looking for the AI Infra Engineer (especially related to the acceleration of Inference or/and Training), Machine Learning Engineering/Researcher, Data Scientist and Quantitative Researcher/Trader opportunities. If you have fantastic PostDoc or finance (like PEVC) opportunities, I'm also glad to have a try.</font>** 
 
-**If you have any suitable positions, feel free to contact [me](mailto:cs.mzr@my.cityu.edu.hk).**	My resume can be found [here](https://mezrua.github.io/files/CV.pdf). 
+**If you have any suitable positions, please contact [me](mailto:cs.mzr@my.cityu.edu.hk).**	My resume can be found [here](https://mezrua.github.io/files/CV.pdf). 
 
-I'm a final-year PhD student under the supervision of [Dr. XU Weitao](https://www.weitaoxu.com/) in the Department of Computer Science, City University of Hong Kong. I'm a member of [Smart Sensing and Mobile Computing Lab (S2MC)](http://s2mc.site/index.html). I also work closely with [Dr. CAO Xuanyu](http://eexcao.people.ust.hk/) (ECE in HKUST) and [Dr. SONG Linqi](https://sites.google.com/site/aisquaredlab/about-us/linqi) (CS in CityU). Prior to this, I got my B.Eng. and B.Econ. degree in Computer Science and Financial Engineering at the Wu Yuzhang Honors College, [Sichuan University](http://www.scu.edu.cn/). I also worked as the Quantitave Researcher Intern in one hedge fund and as the AI engineer intern at Huawei 2012 Labs before.
+I'm a final-year PhD student under the supervision of [Dr. XU Weitao](https://www.weitaoxu.com/) in the Department of Computer Science, City University of Hong Kong. I'm a member of [Smart Sensing and Mobile Computing Lab (S2MC)](http://s2mc.site/index.html). I also work closely with [Dr. CAO Xuanyu](http://eexcao.people.ust.hk/) (ECE in HKUST) and [Dr. SONG Linqi](https://sites.google.com/site/aisquaredlab/about-us/linqi) (CS in CityU). Before this, I got my B.Eng. and B.Econ. degree in Computer Science and Financial Engineering at the Wu Yuzhang Honors College, [Sichuan University](http://www.scu.edu.cn/). I also previously worked as the Quantitative Researcher Intern in one hedge fund and as the AI engineer intern at Huawei 2012 Labs.
 
-My research interests include distributed machine learning (system), distributed optimization methods and quantitative research.	
+My research interests include distributed machine learning (systems), distributed optimization methods, and quantitative research.	
 
-I focus on communication-efficient distributed optimization (especially in Federated Learning) and decentralized optimization.
+I focus on communication-efficient distributed optimization and decentralized optimization (especially in Federated Learning).
 
 News!	
 ======	
-* <img src="../images/new.jpg" width="28" align=center> \[2024.8\] Honor to be invited as a Reviewer of ICLR 2025!
-* <img src="../images/new1.jpg" width="28" align=center> \[2024.8\] One paper was accepted by ICPADS 2024.
+* <img src="../images/new.png" width="28" align=center> \[2024.8\] Honor to be invited as a Reviewer of ICLR 2025!
+* <img src="../images/new1.png" width="28" align=center> \[2024.8\] One paper was accepted by ICPADS 2024.
 * \[2024.3\] The first journal paper has been ACCEPTED by IEEE JSTSP.	
 * \[2023.12\] I got the 4th place in Infinity Champions 011 - Alphathon 2023 hold by WorldQuant.	
 * \[2023.11\] I join Huawei 2012 Labs (Hangzhou) to work as an AI engineer intern.	
