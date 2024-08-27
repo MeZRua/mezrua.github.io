@@ -20,8 +20,8 @@ I focus on communication-efficient distributed optimization (especially in Feder
 
 News!	
 ======	
-* <img src="../images/new (2).jpg" width="28" align=center> \[2024.8\] Honor to be invited as a Reviewer of ICLR 2025!
-* <img src="../images/new (2).jpg" width="28" align=center> \[2024.8\] One paper was accepted by ICPADS 2024.
+* <img src="../images/new.jpg" width="28" align=center> \[2024.8\] Honor to be invited as a Reviewer of ICLR 2025!
+* <img src="../images/new1.jpg" width="28" align=center> \[2024.8\] One paper was accepted by ICPADS 2024.
 * \[2024.3\] The first journal paper has been ACCEPTED by IEEE JSTSP.	
 * \[2023.12\] I got the 4th place in Infinity Champions 011 - Alphathon 2023 hold by WorldQuant.	
 * \[2023.11\] I join Huawei 2012 Labs (Hangzhou) to work as an AI engineer intern.	
