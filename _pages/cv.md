@@ -9,4 +9,31 @@ redirect_from:
 
 {% include base_path %}
 
+Please kindly find my [Curriculum Vitae](/files/CV.pdf).
 
+Education
+======
+
+* Ph.D. of Computer Science, City University of Hong Kong
+  * Aug. 2020 - Jun. 2025 (expected)
+
+* B.S. of Computer Science and Techonology and B.Econ. of Financial Engineering, 
+* Wu Yuzhang Honors College, Sichuan University. 
+  * Aug. 2016 - Jun. 2010
+    
+Internship Experience
+======
+* Qilin Investment, Shanghai, China 
+  * Quantitative Researcher Intern (Machine Learning), 2024.2 – 2024.3
+  * Developing deep learning models for time series forecasting.
+
+* Huawei Technologies 2012 Labs, Hangzhou, China
+  * AI (Machine Learning) Engineer Intern, 2023.11 – 2024.2
+  * About distributed collective communication algorithms, such as NCCL, and HCCL.
+
+<!-- 
+Service
+======
+* Conference PC / Reviewer: ICLR 
+* Journal Reviewer: 
+-->
