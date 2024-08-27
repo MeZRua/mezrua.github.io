@@ -17,9 +17,9 @@ Education
 * Ph.D. of Computer Science, City University of Hong Kong
   * Aug. 2020 - Jun. 2025 (expected)
 
-* B.S. of Computer Science and Techonology and B.Econ. of Financial Engineering, 
-* Wu Yuzhang Honors College, Sichuan University. 
-  * Aug. 2016 - Jun. 2010
+* B.S. of Computer Science and Technology and B.Econ. of Financial Engineering, 
+  * Wu Yuzhang Honors College, Sichuan University. 
+  * Aug. 2016 - Jun. 2020
     
 Internship Experience
 ======
@@ -31,9 +31,9 @@ Internship Experience
   * AI (Machine Learning) Engineer Intern, 2023.11 – 2024.2
   * About distributed collective communication algorithms, such as NCCL, and HCCL.
 
-<!-- 
+
 Service
 ======
-* Conference PC / Reviewer: ICLR 
-* Journal Reviewer: 
+* Conference Reviewer: ICLR, ICDCS
+<!-- * Journal Reviewer: 
 -->
