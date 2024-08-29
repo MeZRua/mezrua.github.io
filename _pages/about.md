@@ -10,7 +10,7 @@ redirect_from:
 
 **<font color = "red">Note: I plan to graduate in 2025 and I'm mainly looking for the AI Infra Engineer (especially related to the acceleration of Inference or/and Training), Machine Learning Engineering/Researcher, Data Scientist and Quantitative Researcher/Trader opportunities. If you have fantastic PostDoc or finance (like PEVC) opportunities, I'm also glad to have a try.</font>** 
 
-**If you have any suitable positions, please contact [me](mailto:cs.mzr@my.cityu.edu.hk).**	My resume can be found [here](https://mezrua.github.io/files/CV.pdf). 
+**If you have any suitable positions, please contact [me](mailto:cs.mzr@my.cityu.edu.hk).**	My resume can be found [here](https://mezrua.github.io/cv). 
 
 I'm a final-year PhD student under the supervision of [Dr. XU Weitao](https://www.weitaoxu.com/) in the Department of Computer Science, City University of Hong Kong. I'm a member of [Smart Sensing and Mobile Computing Lab (S2MC)](http://s2mc.site/index.html). I also work closely with [Dr. SONG Linqi](https://sites.google.com/site/aisquaredlab/about-us/linqi) (CS in CityU) and [Dr. CAO Xuanyu](http://eexcao.people.ust.hk/) (ECE in HKUST). 
 
