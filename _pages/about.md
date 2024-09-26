@@ -12,7 +12,8 @@ redirect_from:
 
 **If you have any suitable positions, please contact [me](mailto:cs.mzr@my.cityu.edu.hk).**	My resume can be found [here](https://mezrua.github.io/cv). 
 
-I'm a final-year PhD student under the supervision of [Dr. XU Weitao](https://www.weitaoxu.com/) in the Department of Computer Science, City University of Hong Kong. I'm a member of [Smart Sensing and Mobile Computing Lab (S2MC)](http://s2mc.site/index.html). I also work closely with [Dr. SONG Linqi](https://sites.google.com/site/aisquaredlab/about-us/linqi) (CS in CityU) and [Dr. CAO Xuanyu](http://eexcao.people.ust.hk/) (ECE in HKUST). 
+I'm a final-year PhD student under the supervision of [Dr. XU Weitao](https://www.weitaoxu.com/) in the Department of Computer Science, City University of Hong Kong. I'm a member of [Smart Sensing and Mobile Computing Lab (S2MC)](http://s2mc.site/index.html). I also work closely with [Dr. SONG Linqi](https://sites.google.com/site/aisquaredlab/about-us/linqi) (CS in CityU).
+<!-- and [Dr. CAO Xuanyu](http://eexcao.people.ust.hk/) (ECE in HKUST). --> 
 
 Now, I am a Technology Investment Analyst Intern in the Huawei Corporate Development Department (Hubble Technology Investment). I also previously worked as an intern in one hedge fund and Huawei 2012 Labs.
 
@@ -21,6 +22,7 @@ I focus on communication-efficient distributed and decentralized optimization (e
 
 News!	
 ======	
+* <img src="../images/new.png" width="28" align=center> \[2024.8\] Honor to be invited as a Reviewer of AISTATS 2025!
 * <img src="../images/new.png" width="28" align=center> \[2024.8\] Honor to be invited as a Reviewer of ICLR 2025!
 * <img src="../images/new.png" width="28" align=center> \[2024.8\] One paper was accepted by ICPADS 2024.
 * \[2024.3\] The first journal paper has been ACCEPTED by IEEE JSTSP.	
