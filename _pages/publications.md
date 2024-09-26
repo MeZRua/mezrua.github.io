@@ -12,7 +12,7 @@ author_profile: true
 
 **Journal Papers**
 * **\[JSTSP\]** Adaptive Top-K in SGD for Communication-Efficient Distributed Learning in Multi-Robot Collaboration <br>
-  **Mengzhe. Ruan**, Guangfeng Yan, Yuanzhang Xiao, Linqi Song*, Weitao Xu*<br>
+  **Mengzhe. Ruan**, Guangfeng Yan, Yuanzhang Xiao, Linqi Song\*, Weitao Xu\*<br>
   IEEE Journal of Selected Topics in Signal Processing, Early Access, March 2024.
 * **\[TOSN\]** mmSign: mmWave-based Few-Shot Online Handwritten Signature Verification <br>
   Mingda Han, Huanqi Yang, Tao Ni, Di Duan, **<u>Mengzhe Ruan</u>**, Yongliang Chen, Jia Zhang, Weitao Xu* <br>
