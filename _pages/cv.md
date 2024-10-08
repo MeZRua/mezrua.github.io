@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Please kindly find my [Curriculum Vitae](/files/CV.pdf).
+Please kindly find my [Curriculum Vitae](/files/MZ_CV_202410.pdf).
 
 Education
 ======
@@ -34,6 +34,5 @@ Internship Experience
 
 Service
 ======
-* Conference Reviewer: ICLR, ICDCS
-<!-- * Journal Reviewer: 
--->
+* Conference Reviewer: ICLR 2025, AISTATS 2025, ICDCS 2024
+* Journal Reviewer: Intelligent and Converged Networks
