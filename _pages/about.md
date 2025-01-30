@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-**<font color = "red">Note: I plan to graduate in 2025 and I'm mainly looking for the AI Infra Engineer (especially related to the acceleration of Inference or/and Training), Machine Learning Engineering/Researcher, Data Scientist and Quantitative Researcher/Trader opportunities. If you have fantastic PostDoc or finance (like PEVC) opportunities, I'm also glad to have a try.</font>** 
+**<font color = "red">Note: I plan to graduate in 2025 and I'm looking for the fantastic PostDoc or Research Scientist/Engineer opportunities.</font>** 
 
 **If you have any suitable positions, please contact [me](mailto:cs.mzr@my.cityu.edu.hk).**	My resume and research statement can be found [here](https://mezrua.github.io/cv). 
 
