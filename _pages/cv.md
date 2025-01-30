@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Please kindly find my [Curriculum Vitae](/files/MZ_CV_202410.pdf).
+Please kindly find my [Curriculum Vitae](/files/RUAN%20Mengzhe_CV.pdf) and my [Research Statement](/files/research_statement.pdf).
 
 Education
 ======
