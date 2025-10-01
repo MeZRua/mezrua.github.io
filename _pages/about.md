@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-**<font color = "red">Note: I plan to graduate in 2025 and I'm looking for the fantastic PostDoc or Research Scientist/Engineer opportunities.</font>** 
+<!--**<font color = "red">Note: I plan to graduate in 2025 and I'm looking for the fantastic PostDoc or Research Scientist/Engineer opportunities.</font>** 
 
-**If you have any suitable positions, please contact [me](mailto:cs.mzr@my.cityu.edu.hk).**	My resume and research statement can be found [here](https://mezrua.github.io/cv). 
+**If you have any suitable positions, please contact [me](mailto:cs.mzr@my.cityu.edu.hk).**	My resume and research statement can be found [here](https://mezrua.github.io/cv). -->
 
 I'm a final-year PhD student under the supervision of [Dr. XU Weitao](https://www.weitaoxu.com/) in the Department of Computer Science, City University of Hong Kong. I'm a member of [Smart Sensing and Mobile Computing Lab (S2MC)](http://s2mc.site/index.html). I also work closely with [Dr. SONG Linqi](https://sites.google.com/site/aisquaredlab/about-us/linqi) (CS in CityU).
 <!-- and [Dr. CAO Xuanyu](http://eexcao.people.ust.hk/) (ECE in HKUST). --> 
@@ -22,9 +22,9 @@ I focus on communication-efficient distributed and decentralized optimization (e
 
 News!	
 ======	
-* <img src="../images/new.png" width="28" align=center> \[2024.8\] Honor to be invited as a Reviewer of AISTATS 2025!
-* <img src="../images/new.png" width="28" align=center> \[2024.8\] Honor to be invited as a Reviewer of ICLR 2025!
-* <img src="../images/new.png" width="28" align=center> \[2024.8\] One paper was accepted by ICPADS 2024.
+* <img src="../images/new.png" width="28" align=center> \[2025.6\] Honor to defended my PhD oral defense successfully!
+*  \[2024.8\] Honor to be invited as a Reviewer of ICLR 2025, AISTATS 2025!
+*  \[2024.8\] One paper was accepted by ICPADS 2024.
 * \[2024.3\] The first journal paper has been ACCEPTED by IEEE JSTSP.	
 * \[2023.12\] I got the 4th place in Infinity Champions 011 - Alphathon 2023 hold by WorldQuant.	
 * \[2023.11\] I join Huawei 2012 Labs (Hangzhou) to work as an AI engineer intern.	
@@ -33,7 +33,7 @@ News!
 
 Contact	
 ------
-* Email: cs.mzr \[at\] my \[dot\] cityu \[dot\] edu \[dot\] hk	
+* Email: cs.mzr \[at\] my \[dot\] cityu \[dot\] edu \[dot\] hk
 * Office: Yeung Kin Man Academic Building G2326	
 * Location: City University of Hong Kong, Hong Kong SAR
   
