@@ -115,7 +115,7 @@ author_profile: true
     <span class="teach-stat-label">Courses</span>
   </div>
   <div class="teach-stat-item">
-    <span class="teach-stat-num">5</span>
+    <span class="teach-stat-num">7</span>
     <span class="teach-stat-label">Semesters</span>
   </div>
 </div>
@@ -132,10 +132,10 @@ author_profile: true
     <span class="teach-role-tag">💬 Q&amp;A Assistant</span>
     <span class="teach-role-tag">🧪 Lab Tutor</span>
     <br><br>
-    <b>2020/21 Sem A&amp;B &amp; 2022/23 Sem A&amp;B &amp; 2023/24 Sem A</b><br>
+    <b>2020/21 Sem A,B &amp; 2022/23 Sem A,B &amp; 2023/24 Sem A</b><br>
     Marking homework and answering questions in Lab &amp; Lecture sessions as Teaching Assistant.
     <br><br>
-    <b>2021/22 Sem A&amp;B</b><br>
+    <b>2021/22 Sem A & B</b><br>
     Teaching lab sessions independently as <b>Lab Tutor</b>.
   </div>
 </div>
