@@ -9,35 +9,137 @@ redirect_from:
 ---
 
 <!--**<font color = "red">Note: I plan to graduate in 2025 and I'm looking for the fantastic PostDoc or Research Scientist/Engineer opportunities.</font>** 
+**If you have any suitable positions, please contact [me](mailto:cs.mzr@my.cityu.edu.hk).**	
+My resume and research statement can be found [here](https://mezrua.github.io/cv). -->
 
-**If you have any suitable positions, please contact [me](mailto:cs.mzr@my.cityu.edu.hk).**	My resume and research statement can be found [here](https://mezrua.github.io/cv). -->
+## 👤 Bio
 
-I'm a final-year PhD student under the supervision of [Dr. XU Weitao](https://www.weitaoxu.com/) in the Department of Computer Science, City University of Hong Kong. I'm a member of [Smart Sensing and Mobile Computing Lab (S2MC)](http://s2mc.site/index.html). I also work closely with [Dr. SONG Linqi](https://sites.google.com/site/aisquaredlab/about-us/linqi) (CS in CityU).
-<!-- and [Dr. CAO Xuanyu](http://eexcao.people.ust.hk/) (ECE in HKUST). --> 
+I received my Ph.D. degreein the Department of Computer Science, [City University of Hong Kong](https://www.cityu.edu.hk/), supervised by Prof. [XU Weitao](https://www.weitaoxu.com/) . I also collaborate closely with Prof. [SONG Linqi](https://sites.google.com/site/aisquaredlab/about-us/linqi) (CS, CityU).
 
-Now, I am a Technology Investment Analyst Intern in the Huawei Corporate Development Department (Hubble Technology Investment). I also previously worked as an intern in one hedge fund and Huawei 2012 Labs.
+Previously, I interned at **Huawei Corporate Development Department (Hubble Technology Investment)**, one hedge fund and **Huawei 2012 Labs**.
 
-My research interests include distributed machine learning (systems), distributed optimization methods.	
-I focus on communication-efficient distributed and decentralized optimization (especially in Federated Learning).
+---
 
-News!	
-======	
-* <img src="../images/new.png" width="28" align=center> \[2025.6\] Honor to defended my PhD oral defense successfully!
-*  \[2024.8\] Honor to be invited as a Reviewer of ICLR 2025, AISTATS 2025!
-*  \[2024.8\] One paper was accepted by ICPADS 2024.
-* \[2024.3\] The first journal paper has been ACCEPTED by IEEE JSTSP.	
-* \[2023.12\] I got the 4th place in Infinity Champions 011 - Alphathon 2023 hold by WorldQuant.	
-* \[2023.11\] I join Huawei 2012 Labs (Hangzhou) to work as an AI engineer intern.	
-* \[2023.8\] My first paper ([Adaptive Top-K in SGD for Communication-Efficient Distributed Learning](https://arxiv.org/abs/2210.13532)) has been ACCEPTED for presentation at GLOBECOM 2023.	
+## 🔬 Research Interests
 
+My research focuses on **distributed machine learning systems** and **distributed optimization methods**, with an emphasis on:
 
-Contact	
-------
-* Email: cs.mzr \[at\] my \[dot\] cityu \[dot\] edu \[dot\] hk
-* Office: Yeung Kin Man Academic Building G2326	
-* Location: City University of Hong Kong, Hong Kong SAR
-  
-<a href="https://info.flagcounter.com/o3ta"><img src="https://s01.flagcounter.com/map/o3ta/size_m/txt_000000/border_BA0202/pageviews_1/viewers_0/flags_0/" alt="Flag Counter" border="0"></a>
-<div style="width: 100px; height: 100px; overflow: hidden;">
-    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=7hsz8-nCNNu7dXeUJ2lG0l9CZJg4T9Md6qfj72CS6Cs"></script>
+- 📡 **Communication-efficient** distributed & decentralized optimization
+- 🤝 **Federated Learning** (FL) systems and algorithms
+- ⚡ **Large Language Model** in finance and credit service
+
+---
+
+## 🔥 News
+
+<style>
+.news-table td {
+  padding: 4px 8px;
+  vertical-align: top;
+  border: none !important;
+}
+.news-table tr {
+  border: none !important;
+  background: none !important;
+}
+.news-table {
+  border: none !important;
+  width: 100%;
+}
+.badge-new {
+  background-color: #e74c3c;
+  color: white;
+  font-size: 0.7em;
+  font-weight: bold;
+  padding: 1px 5px;
+  border-radius: 3px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+.badge-accept {
+  background-color: #27ae60;
+  color: white;
+  font-size: 0.7em;
+  font-weight: bold;
+  padding: 1px 5px;
+  border-radius: 3px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+.badge-service {
+  background-color: #2980b9;
+  color: white;
+  font-size: 0.7em;
+  font-weight: bold;
+  padding: 1px 5px;
+  border-radius: 3px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+</style>
+
+<table class="news-table">
+  <tr>
+    <td nowrap><code>2025.06</code></td>
+    <td><span class="badge-new">NEW</span> 🎉 Successfully defended my PhD oral defense!</td>
+  </tr>
+  <tr>
+    <td nowrap><code>2024.08</code></td>
+    <td><span class="badge-service">SERVICE</span> Invited as a Reviewer for <strong>ICLR 2025</strong> and <strong>AISTATS 2025</strong>.</td>
+  </tr>
+  <tr>
+    <td nowrap><code>2024.08</code></td>
+    <td><span class="badge-accept">ACCEPT</span> One paper accepted at <strong>ICPADS 2024</strong>.</td>
+  </tr>
+  <tr>
+    <td nowrap><code>2024.03</code></td>
+    <td><span class="badge-accept">ACCEPT</span> First journal paper accepted by <strong>IEEE JSTSP</strong>. 🎊</td>
+  </tr>
+  <tr>
+    <td nowrap><code>2023.12</code></td>
+    <td>🏆 Achieved <strong>4th place</strong> in Infinity Champions 011 – Alphathon 2023 (WorldQuant).</td>
+  </tr>
+  <tr>
+    <td nowrap><code>2023.11</code></td>
+    <td>🚀 Joined <strong>Huawei 2012 Labs</strong> (Hangzhou) as an AI Engineer Intern.</td>
+  </tr>
+  <tr>
+    <td nowrap><code>2023.08</code></td>
+    <td><span class="badge-accept">ACCEPT</span> Paper <a href="https://arxiv.org/abs/2210.13532"><em>Adaptive Top-K in SGD for Communication-Efficient Distributed Learning</em></a> accepted at <strong>GLOBECOM 2023</strong>.</td>
+  </tr>
+</table>
+
+---
+
+## 📬 Contact
+
+<table style="border:none; width:auto;">
+  <tr style="border:none; background:none;">
+    <td style="border:none; padding: 4px 12px 4px 0;">📧 Email</td>
+    <td style="border:none; padding: 4px 0;"><code>cs.mzr [at] my [dot] cityu [dot] edu [dot] hk</code></td>
+  </tr>
+  <tr style="border:none; background:none;">
+    <td style="border:none; padding: 4px 12px 4px 0;">🏢 Office</td>
+    <td style="border:none; padding: 4px 0;">Yeung Kin Man Academic Building, G2326</td>
+  </tr>
+  <tr style="border:none; background:none;">
+    <td style="border:none; padding: 4px 12px 4px 0;">📍 Location</td>
+    <td style="border:none; padding: 4px 0;">City University of Hong Kong, Hong Kong SAR</td>
+  </tr>
+</table>
+
+---
+
+## 🌍 Visitor Map
+
+<div style="display: flex; gap: 20px; align-items: center; flex-wrap: wrap;">
+  <a href="https://info.flagcounter.com/o3ta">
+    <img src="https://s01.flagcounter.com/map/o3ta/size_m/txt_000000/border_BA0202/pageviews_1/viewers_0/flags_0/" 
+         alt="Flag Counter" border="0" style="border-radius: 6px;">
+  </a>
+  <div style="width: 150px; height: 150px; overflow: hidden; border-radius: 50%;">
+    <script type="text/javascript" id="clstr_globe" 
+            src="//clustrmaps.com/globe.js?d=7hsz8-nCNNu7dXeUJ2lG0l9CZJg4T9Md6qfj72CS6Cs">
+    </script>
+  </div>
 </div>
