@@ -95,6 +95,9 @@ author_profile: true
 
 .pub-me {
   font-weight: bold;
+  color: #2c3e50;
+}
+.pub-guid{
   text-decoration: underline;
   color: #2c3e50;
 }
@@ -156,7 +159,7 @@ author_profile: true
   <span class="pub-badge pub-badge-journal">IEEE JSTSP</span>
   <span class="pub-title">Adaptive Top-K in SGD for Communication-Efficient Distributed Learning in Multi-Robot Collaboration</span>
   <div class="pub-authors">
-    <span class="pub-me">Mengzhe Ruan</span>, Guangfeng Yan, Yuanzhang Xiao, Linqi Song*, Weitao Xu*
+    <span class="pub-me">Mengzhe Ruan</span>, Guangfeng Yan, Yuanzhang Xiao, Linqi Song, Weitao Xu
   </div>
   <div class="pub-venue">
     📰 IEEE Journal of Selected Topics in Signal Processing — Early Access, March 2024
@@ -172,7 +175,7 @@ author_profile: true
   <span class="pub-badge pub-badge-journal">ACM TOSN</span>
   <span class="pub-title">mmSign: mmWave-based Few-Shot Online Handwritten Signature Verification</span>
   <div class="pub-authors">
-    Mingda Han, Huanqi Yang, Tao Ni, Di Duan, <span class="pub-me">Mengzhe Ruan</span>, Yongliang Chen, Jia Zhang, Weitao Xu*
+    Mingda Han, Huanqi Yang, Tao Ni, Di Duan, <span class="pub-me">Mengzhe Ruan</span>, Yongliang Chen, Jia Zhang, Weitao Xu
   </div>
   <div class="pub-venue">
     📰 ACM Transactions on Sensor Networks — Volume 20, Issue 4, Pages 1–31, May 2024
@@ -191,7 +194,7 @@ author_profile: true
   <span class="pub-badge pub-badge-conf">ICPADS 2024</span>
   <span class="pub-title">Optimal Power Control for Over-the-Air Federated Learning with Gradient Compression</span>
   <div class="pub-authors">
-    <span class="pub-me">Mengzhe Ruan</span>, Yunhe Li, Weizhou Zhang, Linqi Song, Weitao Xu*
+    <span class="pub-me">Mengzhe Ruan</span>, <span class="pub-guid">Yunhe Li</span>, Weizhou Zhang, Linqi Song, Weitao Xu
   </div>
   <div class="pub-venue">
     🌍 30th International Conference on Parallel and Distributed Systems (ICPADS) — Belgrade, Serbia, 2024
@@ -207,7 +210,7 @@ author_profile: true
   <span class="pub-badge pub-badge-conf">GLOBECOM 2023</span>
   <span class="pub-title">Adaptive Top-K in SGD for Communication-Efficient Distributed Learning</span>
   <div class="pub-authors">
-    <span class="pub-me">Mengzhe Ruan</span>, Guangfeng Yan, Yuanzhang Xiao, Linqi Song, Weitao Xu*
+    <span class="pub-me">Mengzhe Ruan</span>, Guangfeng Yan, Yuanzhang Xiao, Linqi Song, Weitao Xu
   </div>
   <div class="pub-venue">
     🌍 IEEE Global Communications Conference (GLOBECOM) — Kuala Lumpur, Malaysia, 2023
