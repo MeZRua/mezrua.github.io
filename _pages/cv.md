@@ -155,7 +155,7 @@ redirect_from:
   <div class="cv-card-header">
     <span><span class="cv-badge badge-edu">PhD</span>
     <span class="cv-card-title">City University of Hong Kong</span></span>
-    <span class="cv-card-date">Aug. 2020 – Jun. 2025</span>
+    <span class="cv-card-date">Aug. 2020 – Oct. 2025</span>
   </div>
   <div class="cv-card-subtitle">Doctor of Philosophy · Department of Computer Science</div>
   <div class="cv-card-desc">
@@ -187,12 +187,12 @@ redirect_from:
   <div class="cv-card-header">
     <span><span class="cv-badge badge-intern">Intern</span>
     <span class="cv-card-title">Huawei Corporate Development (Hubble Investment)</span></span>
-    <span class="cv-card-date">2024.4 – Present</span>
+    <span class="cv-card-date">2024.4 – 2024.12</span>
   </div>
   <div class="cv-card-subtitle">Technology Investment Analyst Intern · Shenzhen, China</div>
   <div class="cv-card-desc">
     <span class="cv-tag">Tech Investment</span>
-    <span class="cv-tag">AI Ecosystem</span>
+    <span class="cv-tag">AI & software</span>
   </div>
 </div>
 
