@@ -14,7 +14,7 @@ My resume and research statement can be found [here](https://mezrua.github.io/cv
 
 ## 👤 Bio
 
-I received my Ph.D. degreein the Department of Computer Science, [City University of Hong Kong](https://www.cityu.edu.hk/), supervised by Prof. [XU Weitao](https://www.weitaoxu.com/) . I also collaborate closely with Prof. [SONG Linqi](https://sites.google.com/site/aisquaredlab/about-us/linqi) (CS, CityU).
+I received my Ph.D. degree in the [Department of Computer Science](https://www.cs.cityu.edu.hk/), [City University of Hong Kong](https://www.cityu.edu.hk/), supervised by Prof. [XU Weitao](https://www.weitaoxu.com/) . I also collaborate closely with Prof. [SONG Linqi](https://sites.google.com/site/aisquaredlab/about-us/linqi) (CS, CityU).
 
 Previously, I interned at **Huawei Corporate Development Department (Hubble Technology Investment)**, one hedge fund and **Huawei 2012 Labs**.
 
