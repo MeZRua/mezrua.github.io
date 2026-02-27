@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: "About Me"
 excerpt: "About Me"
 author_profile: true
 redirect_from: 
@@ -10,9 +10,9 @@ redirect_from:
 
 <!--**<font color = "red">Note: I plan to graduate in 2025 and I'm looking for the fantastic PostDoc or Research Scientist/Engineer opportunities.</font>** 
 **If you have any suitable positions, please contact [me](mailto:cs.mzr@my.cityu.edu.hk).**	
-My resume and research statement can be found [here](https://mezrua.github.io/cv). -->
+My resume and research statement can be found [here](https://mezrua.github.io/cv). 
 
-## 👤 Bio
+## 👤 Bio-->
 
 I received my Ph.D. degree in the [Department of Computer Science](https://www.cs.cityu.edu.hk/), [City University of Hong Kong](https://www.cityu.edu.hk/), supervised by Prof. [XU Weitao](https://www.weitaoxu.com/) . I also collaborate closely with Prof. [SONG Linqi](https://sites.google.com/site/aisquaredlab/about-us/linqi) (CS, CityU).
 
