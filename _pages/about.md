@@ -133,7 +133,7 @@ My research focuses on **distributed machine learning systems** and **distribute
 
 ## 📬 Contact
 
-<table style="border:none; width:auto; font-size: 1.0em; line-height: 2.0;">
+<table style="border:none; width:auto; font-size: 0.85em; line-height: 2.0;">
   <tr style="border:none; background:none;">
     <td style="border:none; padding: 4px 16px 4px 0; white-space:nowrap;">📧 Email</td>
     <td style="border:none; padding: 4px 0;"><code style="font-size: 0.95em;">cs.mzr [at] my [dot] cityu [dot] edu [dot] hk</code></td>
