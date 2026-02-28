@@ -245,7 +245,7 @@ author_profile: true
 
 
 <!-- ======= Preprint, Revised & Reviewing Papers ======= -->
-<div class="pub-section-title">📝 Preprint & Reviewing Papers</div>
+<div class="pub-section-title">📝 Preprint, Revised & Reviewing Papers</div>
 
 <!-- P1：示例，按格式添加即可 -->
 <div class="pub-card pub-type-preprint">
@@ -262,7 +262,7 @@ author_profile: true
   </div> -->
 </div>
 <div class="pub-card pub-type-preprint">
-  <span class="pub-badge pub-badge-preprint">Revised</span>
+  <span class="pub-badge pub-badge-preprint">Reviewing</span>
   <span class="pub-title">REGATE: Confidence-Calibrated Integration of Temporally-Aligned Exogenous Texts for Dynamic Graphs</span>
   <div class="pub-authors">
     Liangzu Liu, <span class="pub-me">Mengzhe Ruan</span>, Yinjun Wu, Yang Liu, Guanjun Wang 
