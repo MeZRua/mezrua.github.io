@@ -308,7 +308,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (el) el.textContent = String(val);
     };
 
-    set("count-total", j + c);
+    set("count-total", j + c + p);
     set("count-journal", j);
     set("count-conf", c);
     set("count-preprint", p);
