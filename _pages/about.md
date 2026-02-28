@@ -34,9 +34,11 @@ My research focuses on **distributed machine learning systems** and **distribute
 
 <style>
 .news-table td {
-  padding: 4px 8px;
+  padding: 6px 10px;
   vertical-align: top;
   border: none !important;
+  font-size: 1.0em;        /* 👈 从默认偏小改为 1.0em（或用 15px）*/
+  line-height: 1.8;        /* 👈 增加行高更易读 */
 }
 .news-table tr {
   border: none !important;
@@ -46,10 +48,15 @@ My research focuses on **distributed machine learning systems** and **distribute
   border: none !important;
   width: 100%;
 }
+/* 日期列也加大 */
+.news-table td:first-child code {
+  font-size: 0.95em;      /* 👈 日期 badge 字体 */
+  padding: 2px 8px;
+}
 .badge-new {
   background-color: #e74c3c;
   color: white;
-  font-size: 0.7em;
+  font-size: 0.82em;       /* 👈 角标字体稍微调大 */
   font-weight: bold;
   padding: 1px 5px;
   border-radius: 3px;
@@ -137,9 +144,9 @@ My research focuses on **distributed machine learning systems** and **distribute
     <img src="https://s01.flagcounter.com/map/o3ta/size_m/txt_000000/border_BA0202/pageviews_1/viewers_0/flags_0/" 
          alt="Flag Counter" border="0" style="border-radius: 6px;">
   </a>
-  <div style="width: 150px; height: 150px; overflow: hidden; border-radius: 50%;">
+  <!--<div style="width: 150px; height: 150px; overflow: hidden; border-radius: 50%;">
     <script type="text/javascript" id="clstr_globe" 
             src="//clustrmaps.com/globe.js?d=7hsz8-nCNNu7dXeUJ2lG0l9CZJg4T9Md6qfj72CS6Cs">
     </script>
-  </div>
+  </div>-->
 </div>
