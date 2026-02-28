@@ -173,7 +173,7 @@ author_profile: true
 
 
 <!-- ======= Journal Papers ======= -->
-<div class="pub-section-title">📄 Journal Papers</div>
+<div class="pub-section-title">📖 Journal Papers</div>
 
 <!-- J1 -->
 <div class="pub-card pub-type-journal">
@@ -183,7 +183,7 @@ author_profile: true
     <span class="pub-me">Mengzhe Ruan</span>, Guangfeng Yan, Yuanzhang Xiao, Linqi Song, Weitao Xu
   </div>
   <div class="pub-venue">
-    📰 IEEE Journal of Selected Topics in Signal Processing — Early Access, March 2024
+    📄 IEEE Journal of Selected Topics in Signal Processing — Early Access, March 2024
   </div>
   <div class="pub-links">
     <a class="pub-link-btn" href="https://arxiv.org/abs/2210.13532" target="_blank">📄 arXiv</a>
@@ -199,7 +199,7 @@ author_profile: true
     Mingda Han, Huanqi Yang, Tao Ni, Di Duan, <span class="pub-me">Mengzhe Ruan</span>, Yongliang Chen, Jia Zhang, Weitao Xu
   </div>
   <div class="pub-venue">
-    📰 ACM Transactions on Sensor Networks — Volume 20, Issue 4, Pages 1–31, May 2024
+    📄 ACM Transactions on Sensor Networks — Volume 20, Issue 4, Pages 1–31, May 2024
   </div>
   <div class="pub-links">
     <a class="pub-link-btn" href="#" target="_blank">🔗 ACM DL</a>
@@ -208,7 +208,7 @@ author_profile: true
 
 
 <!-- ======= Conference Papers ======= -->
-<div class="pub-section-title">🎤 Conference Papers</div>
+<div class="pub-section-title">🏛️ Conference Papers</div>
 
 <!-- C1 -->
 <div class="pub-card pub-type-conf">
@@ -218,7 +218,7 @@ author_profile: true
     <span class="pub-me">Mengzhe Ruan</span>, <span class="pub-guid">Yunhe Li</span>, Weizhou Zhang, Linqi Song, Weitao Xu
   </div>
   <div class="pub-venue">
-    🌍 30th International Conference on Parallel and Distributed Systems (ICPADS) — Belgrade, Serbia, 2024
+    🖥️ 30th International Conference on Parallel and Distributed Systems (ICPADS) — Belgrade, Serbia, 2024
   </div>
   <div class="pub-links">
     <a class="pub-link-btn" href="#" target="_blank">📄 Paper</a>
@@ -234,7 +234,7 @@ author_profile: true
     <span class="pub-me">Mengzhe Ruan</span>, Guangfeng Yan, Yuanzhang Xiao, Linqi Song, Weitao Xu
   </div>
   <div class="pub-venue">
-    🌍 IEEE Global Communications Conference (GLOBECOM) — Kuala Lumpur, Malaysia, 2023
+    🎙️ IEEE Global Communications Conference (GLOBECOM) — Kuala Lumpur, Malaysia, 2023
   </div>
   <div class="pub-links">
     <a class="pub-link-btn" href="https://arxiv.org/abs/2210.13532" target="_blank">📄 arXiv</a>
