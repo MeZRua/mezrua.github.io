@@ -277,6 +277,25 @@ author_profile: true
 
 
 <!-- ======= 自动统计 JS（修复版）======= 如果你的卡片是后续异步注入的：用 MutationObserver 如果你发现页面初始 HTML 里没有这些 .pub-card（由 JS/插件后插入），用这个更彻底：-->
+<!-- <script>
+document.addEventListener("DOMContentLoaded", () => {
+  const update = () => {
+    const j = document.querySelectorAll(".pub-type-journal").length;
+    const c = document.querySelectorAll(".pub-type-conf").length;
+    const p = document.querySelectorAll(".pub-type-preprint").length;
+
+    document.getElementById("count-total").textContent    = j + c;
+    document.getElementById("count-journal").textContent  = j;
+    document.getElementById("count-conf").textContent     = c;
+    document.getElementById("count-preprint").textContent = p;
+  };
+
+  update();
+
+  const obs = new MutationObserver(() => update());
+  obs.observe(document.body, { childList: true, subtree: true });
+});
+</script> -->
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   const update = () => {
@@ -286,7 +305,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const set = (id, val) => {
       const el = document.getElementById(id);
-      if (el && el.textContent !== String(val)) el.textContent = String(val);
+      if (el) el.textContent = String(val);
     };
 
     set("count-total", j + c);
@@ -295,14 +314,9 @@ document.addEventListener("DOMContentLoaded", () => {
     set("count-preprint", p);
   };
 
-  const obs = new MutationObserver(() => {
-    obs.disconnect();     // 防止回调-更新-回调的循环
-    update();
-    obs.observe(document.body, { childList: true, subtree: true });
-  });
-
   update();
-  obs.observe(document.body, { childList: true, subtree: true });
+  setTimeout(update, 200);
+  setTimeout(update, 800);
 });
 </script>
 
