@@ -121,7 +121,7 @@ author_profile: true
 
 
 <!-- ======= Stats Bar（数字由 JS 自动统计）======= -->
-<!-- <div class="pub-stats">
+<div class="pub-stats">
   <div class="pub-stat-item">
     <span class="pub-stat-num" id="count-total">—</span>
     <span class="pub-stat-label">Total Papers</span>
@@ -138,9 +138,9 @@ author_profile: true
     <span class="pub-stat-num" id="count-preprint">—</span>
     <span class="pub-stat-label">Preprint & Reviewing</span>
   </div>
-</div> -->
+</div>
 <!-- ======= Stats Bar ======= -->
-{% assign journal_count = 0 %}
+<!-- {% assign journal_count = 0 %}
 {% assign conf_count = 0 %}
 {% assign preprint_count = 0 %}
 
@@ -168,7 +168,7 @@ author_profile: true
     <span class="pub-stat-num">{{ preprint_count }}</span>
     <span class="pub-stat-label">Preprint & Reviewing</span>
   </div>
-</div>
+</div> -->
 
 
 
@@ -276,17 +276,33 @@ function updatePubStats() {
   var elConf     = document.getElementById("count-conf");
   var elPreprint = document.getElementById("count-preprint");
 
-  // 确认元素存在再赋值
-  if (elTotal)    elTotal.textContent    = totalCount;
-  if (elJournal)  elJournal.textContent  = journalCount;
-  if (elConf)     elConf.textContent     = confCount;
-  if (elPreprint) elPreprint.textContent = preprintCount;
+  if (elTotal)    elTotal.innerHTML    = "<strong>" + totalCount    + "</strong>";
+  if (elJournal)  elJournal.innerHTML  = "<strong>" + journalCount  + "</strong>";
+  if (elConf)     elConf.innerHTML     = "<strong>" + confCount     + "</strong>";
+  if (elPreprint) elPreprint.innerHTML = "<strong>" + preprintCount + "</strong>";
 }
 
-// 三重触发保险
-updatePubStats();                              // 1. 立即执行
-document.addEventListener("DOMContentLoaded", updatePubStats);  // 2. DOM 就绪
-window.addEventListener("load", updatePubStats);                 // 3. 全部加载完
+// 多个时间点重复执行，确保主题 JS 重绘后仍能覆盖
+updatePubStats();
+setTimeout(updatePubStats, 100);
+setTimeout(updatePubStats, 500);
+setTimeout(updatePubStats, 1000);
+setTimeout(updatePubStats, 2000);   // 最后兜底
+
+// 用 MutationObserver 监听 DOM 变化：主题重绘后自动重新写入
+var targetEl = document.getElementById("count-total");
+if (targetEl && window.MutationObserver) {
+  var observer = new MutationObserver(function(mutations) {
+    mutations.forEach(function(m) {
+      // 如果内容被清空或改回 "—"，立刻恢复
+      if (m.target.textContent === "—" || m.target.textContent === "") {
+        updatePubStats();
+      }
+    });
+  });
+  observer.observe(document.getElementById("count-total"), { childList: true, characterData: true, subtree: true });
+}
 </script>
+
 
 
