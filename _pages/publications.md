@@ -255,7 +255,7 @@ author_profile: true
     <span class="pub-me">Mengzhe Ruan</span>, Yunhe LI, Hao Shi, Hanxu Hou, Jianping Wang, Weitao Xu, Linqi Song
   </div>
   <div class="pub-venue"> 
-    🔄 Submitted to ICML Conference 2025
+    🔄 Submitted to ICML Conference 2025 hhh
   </div>
   <!-- <div class="pub-links">
     <a class="pub-link-btn" href="#" target="_blank">📄 arXiv</a>
@@ -271,24 +271,19 @@ document.addEventListener("DOMContentLoaded", () => {
     const c = document.querySelectorAll(".pub-type-conf").length;
     const p = document.querySelectorAll(".pub-type-preprint").length;
 
-    const elTotal    = document.getElementById("count-total");
-    const elJournal  = document.getElementById("count-journal");
-    const elConf     = document.getElementById("count-conf");
-    const elPreprint = document.getElementById("count-preprint");
-
-    // 你原来 total 用 j+c，这里保持一致；如果你想“总数=含preprint”，改成 j+c+p
-    if (elTotal)    elTotal.textContent    = j + c;
-    if (elJournal)  elJournal.textContent  = j;
-    if (elConf)     elConf.textContent     = c;
-    if (elPreprint) elPreprint.textContent = p;
+    document.getElementById("count-total").textContent    = j + c;
+    document.getElementById("count-journal").textContent  = j;
+    document.getElementById("count-conf").textContent     = c;
+    document.getElementById("count-preprint").textContent = p;
   };
 
-  // 有些主题会在 DOMContentLoaded 后再插入内容，下一帧再算一次更稳
-  requestAnimationFrame(update);
-  setTimeout(update, 300);
-  setTimeout(update, 1000);
+  update();
+
+  const obs = new MutationObserver(() => update());
+  obs.observe(document.body, { childList: true, subtree: true });
 });
 </script>
+
 
 
 
