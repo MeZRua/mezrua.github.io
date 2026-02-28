@@ -140,7 +140,7 @@ author_profile: true
   </div>
 </div>
 <!-- ======= Stats Bar ======= -->
-<!-- {% assign journal_count = 0 %}
+{% assign journal_count = 0 %}
 {% assign conf_count = 0 %}
 {% assign preprint_count = 0 %}
 
@@ -151,7 +151,7 @@ author_profile: true
 
 {% assign total_count = journal_count | plus: conf_count | plus: preprint_count %}
 
-<div class="pub-stats">
+<!-- <div class="pub-stats">
   <div class="pub-stat-item">
     <span class="pub-stat-num">{{ total_count }}</span>
     <span class="pub-stat-label">Total Papers</span>
