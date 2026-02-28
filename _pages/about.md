@@ -65,7 +65,7 @@ My research focuses on **distributed machine learning systems** and **distribute
 .badge-new {
   background-color: #e74c3c;
   color: white;
-  font-size: 0.9em;     /* 👈 从 0.82em 调大到 0.95em */
+  font-size: 0.85em;     /* 👈 从 0.82em 调大到 0.95em */
   font-weight: bold;
   padding: 3px 9px;      /* 👈 padding 稍微加大，badge 更饱满 */
   border-radius: 3px;
@@ -77,7 +77,7 @@ My research focuses on **distributed machine learning systems** and **distribute
 .badge-accept {
   background-color: #27ae60;
   color: white;
-  font-size: 0.9em;     /* 👈 从 0.82em 调大到 0.95em */
+  font-size: 0.85em;     /* 👈 从 0.82em 调大到 0.95em */
   font-weight: bold;
   padding: 3px 9px;
   border-radius: 3px;
@@ -89,7 +89,7 @@ My research focuses on **distributed machine learning systems** and **distribute
 .badge-service {
   background-color: #2980b9;
   color: white;
-  font-size: 0.9em;     /* 👈 从 0.82em 调大到 0.95em */
+  font-size: 0.85em;     /* 👈 从 0.82em 调大到 0.95em */
   font-weight: bold;
   padding: 3px 9px;
   border-radius: 3px;
