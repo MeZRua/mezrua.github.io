@@ -213,22 +213,21 @@ author_profile: true
 </div>
 
 
-<!-- ======= Preprint & Reviewing Papers ======= -->
+<!-- ======= Preprint, Revised & Reviewing Papers ======= -->
 <div class="pub-section-title">📝 Preprint & Reviewing Papers</div>
 
 <!-- P1：示例，按格式添加即可 -->
 <div class="pub-card pub-type-preprint">
-  <span class="pub-badge pub-badge-preprint">Under Review</span>
-  <span class="pub-title">（你的 Preprint 论文标题）</span>
+  <span class="pub-badge pub-badge-preprint">Revised</span>
+  <span class="pub-title">Gradient Decoupling: A Plug-and-play Framework for Accelerating General Federated Learning</span>
   <div class="pub-authors">
-    <span class="pub-me">Mengzhe Ruan</span>, Co-author A, Co-author B
+    <span class="pub-me">Mengzhe Ruan</span>, Yunhe LI, Hao Shi, Hanxu Hou, Jianping Wang, Weitao Xu, Linqi Song
   </div>
-  <div class="pub-venue">
-    🔄 Submitted to XXX Journal / Conference, 2025
+  <!-- <div class="pub-venue">
   </div>
   <div class="pub-links">
     <a class="pub-link-btn" href="#" target="_blank">📄 arXiv</a>
-  </div>
+  </div> -->
 </div>
 
 
