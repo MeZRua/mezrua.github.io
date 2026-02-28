@@ -53,35 +53,48 @@ My research focuses on **distributed machine learning systems** and **distribute
   font-size: 0.95em;      /* 👈 日期 badge 字体 */
   padding: 2px 8px;
 }
+/* ✅ 正文列字体调大 */
+.news-table td:last-child {
+  padding: 6px 10px;
+  vertical-align: top;
+  border: none !important;
+  font-size: 1.1em;     /* 👈 正文字体，调大这里 */
+  line-height: 1.8;
+}
+/* ✅ NEW 角标字体调大 */
 .badge-new {
   background-color: #e74c3c;
   color: white;
-  font-size: 0.82em;       /* 👈 角标字体稍微调大 */
+  font-size: 0.95em;     /* 👈 从 0.82em 调大到 0.95em */
   font-weight: bold;
-  padding: 1px 5px;
+  padding: 3px 9px;      /* 👈 padding 稍微加大，badge 更饱满 */
   border-radius: 3px;
   vertical-align: middle;
-  margin-right: 4px;
+  margin-right: 5px;
 }
+
+/* ✅ ACCEPT 角标字体调大 */
 .badge-accept {
   background-color: #27ae60;
   color: white;
-  font-size: 0.7em;
+  font-size: 0.95em;     /* 👈 从 0.82em 调大到 0.95em */
   font-weight: bold;
-  padding: 1px 5px;
+  padding: 3px 9px;
   border-radius: 3px;
   vertical-align: middle;
-  margin-right: 4px;
+  margin-right: 5px;
 }
+
+/* ✅ SERVICE 角标字体调大 */
 .badge-service {
   background-color: #2980b9;
   color: white;
-  font-size: 0.7em;
+  font-size: 0.95em;     /* 👈 从 0.82em 调大到 0.95em */
   font-weight: bold;
-  padding: 1px 5px;
+  padding: 3px 9px;
   border-radius: 3px;
   vertical-align: middle;
-  margin-right: 4px;
+  margin-right: 5px;
 }
 </style>
 
