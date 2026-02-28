@@ -265,7 +265,8 @@ author_profile: true
   <span class="pub-badge pub-badge-preprint">Reviewing</span>
   <span class="pub-title">REGATE: Confidence-Calibrated Integration of Temporally-Aligned Exogenous Texts for Dynamic Graphs</span>
   <div class="pub-authors">
-    Liangzu Liu, <span class="pub-me">Mengzhe Ruan</span>, Yinjun Wu, Yang Liu, Guanjun Wang 
+    <!-- Liangzu Liu, <span class="pub-me">Mengzhe Ruan</span>, Yinjun Wu, Yang Liu, Guanjun Wang  -->
+    Comming Soon...
   </div>
   <div class="pub-venue"> 
     📮 Submitted to ACL 2026
@@ -274,6 +275,20 @@ author_profile: true
     <a class="pub-link-btn" href="#" target="_blank">📄 arXiv</a>
   </div> -->
 </div>
+<div class="pub-card pub-type-preprint">
+  <span class="pub-badge pub-badge-preprint">Reviewing</span>
+  <span class="pub-title">Learning to Reason with Insight for Informal Theorem Proving</span>
+  <div class="pub-authors">
+    Comming Soon...
+  </div>
+  <div class="pub-venue"> 
+    📮 Submitted to ACL 2026
+  </div>
+  <!-- <div class="pub-links">⏳
+    <a class="pub-link-btn" href="#" target="_blank">📄 arXiv</a>
+  </div> -->
+</div>
+Learning to Reason with Insight for Informal Theorem Proving
 
 
 <!-- ======= 自动统计 JS（修复版）======= 如果你的卡片是后续异步注入的：用 MutationObserver 如果你发现页面初始 HTML 里没有这些 .pub-card（由 JS/插件后插入），用这个更彻底：-->
