@@ -232,23 +232,20 @@ author_profile: true
 </div>
 
 
-<!-- ======= 自动统计 JS ======= -->
+<!-- ======= 自动统计 JS（修复版）======= -->
 <script>
-  // 页面加载完成后自动计数
-  document.addEventListener("DOMContentLoaded", function () {
+  // 直接执行，不使用 DOMContentLoaded
+  // 因为 <script> 在所有卡片 HTML 之后，DOM 已经就绪
+  (function () {
+    var journalCount  = document.querySelectorAll(".pub-type-journal").length;
+    var confCount     = document.querySelectorAll(".pub-type-conf").length;
+    var preprintCount = document.querySelectorAll(".pub-type-preprint").length;
+    var totalCount    = journalCount + confCount;
 
-    // 分别数三类卡片
-    const journalCount  = document.querySelectorAll(".pub-type-journal").length;
-    const confCount     = document.querySelectorAll(".pub-type-conf").length;
-    const preprintCount = document.querySelectorAll(".pub-type-preprint").length;
-
-    // Total = Journal + Conference（Preprint 不计入正式论文总数，可按需调整）
-    const totalCount = journalCount + confCount;
-
-    // 写入统计栏
     document.getElementById("count-total").textContent    = totalCount;
     document.getElementById("count-journal").textContent  = journalCount;
     document.getElementById("count-conf").textContent     = confCount;
     document.getElementById("count-preprint").textContent = preprintCount;
-  });
+  })();
 </script>
+
