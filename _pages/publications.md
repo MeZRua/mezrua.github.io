@@ -263,7 +263,7 @@ author_profile: true
 </div>
 
 
-<!-- ======= 自动统计 JS（修复版）======= -->
+<!-- ======= 自动统计 JS（修复版）======= 如果你的卡片是后续异步注入的：用 MutationObserver 如果你发现页面初始 HTML 里没有这些 .pub-card（由 JS/插件后插入），用这个更彻底：-->
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   const update = () => {
@@ -271,7 +271,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const c = document.querySelectorAll(".pub-type-conf").length;
     const p = document.querySelectorAll(".pub-type-preprint").length;
 
-    document.getElementById("count-total").textContent    = j + c;
+    document.getElementById("count-total").textContent    = j + c + p;
     document.getElementById("count-journal").textContent  = j;
     document.getElementById("count-conf").textContent     = c;
     document.getElementById("count-preprint").textContent = p;
