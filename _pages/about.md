@@ -50,7 +50,7 @@ My research focuses on **distributed machine learning systems** and **distribute
 }
 /* 日期列也加大 */
 .news-table td:first-child code {
-  font-size: 0.95em;      /* 👈 日期 badge 字体 */
+  font-size: 0.99em;      /* 👈 日期 badge 字体 */
   padding: 2px 8px;
 }
 /* ✅ 正文列字体调大 */
@@ -58,14 +58,14 @@ My research focuses on **distributed machine learning systems** and **distribute
   padding: 6px 10px;
   vertical-align: top;
   border: none !important;
-  font-size: 1.1em;     /* 👈 正文字体，调大这里 */
+  font-size: 1.3em;     /* 👈 正文字体，调大这里 */
   line-height: 1.8;
 }
 /* ✅ NEW 角标字体调大 */
 .badge-new {
   background-color: #e74c3c;
   color: white;
-  font-size: 0.95em;     /* 👈 从 0.82em 调大到 0.95em */
+  font-size: 0.9em;     /* 👈 从 0.82em 调大到 0.95em */
   font-weight: bold;
   padding: 3px 9px;      /* 👈 padding 稍微加大，badge 更饱满 */
   border-radius: 3px;
@@ -77,7 +77,7 @@ My research focuses on **distributed machine learning systems** and **distribute
 .badge-accept {
   background-color: #27ae60;
   color: white;
-  font-size: 0.95em;     /* 👈 从 0.82em 调大到 0.95em */
+  font-size: 0.9em;     /* 👈 从 0.82em 调大到 0.95em */
   font-weight: bold;
   padding: 3px 9px;
   border-radius: 3px;
@@ -89,7 +89,7 @@ My research focuses on **distributed machine learning systems** and **distribute
 .badge-service {
   background-color: #2980b9;
   color: white;
-  font-size: 0.95em;     /* 👈 从 0.82em 调大到 0.95em */
+  font-size: 0.9em;     /* 👈 从 0.82em 调大到 0.95em */
   font-weight: bold;
   padding: 3px 9px;
   border-radius: 3px;
