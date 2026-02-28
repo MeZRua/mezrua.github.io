@@ -223,9 +223,10 @@ author_profile: true
   <div class="pub-authors">
     <span class="pub-me">Mengzhe Ruan</span>, Yunhe LI, Hao Shi, Hanxu Hou, Jianping Wang, Weitao Xu, Linqi Song
   </div>
-  <!-- <div class="pub-venue">
+  <div class="pub-venue"> 
+    🔄 Submitted to ICML Conference 2025
   </div>
-  <div class="pub-links">
+  <!-- <div class="pub-links">
     <a class="pub-link-btn" href="#" target="_blank">📄 arXiv</a>
   </div> -->
 </div>
@@ -233,18 +234,28 @@ author_profile: true
 
 <!-- ======= 自动统计 JS（修复版）======= -->
 <script>
-  // 直接执行，不使用 DOMContentLoaded
-  // 因为 <script> 在所有卡片 HTML 之后，DOM 已经就绪
-  (function () {
-    var journalCount  = document.querySelectorAll(".pub-type-journal").length;
-    var confCount     = document.querySelectorAll(".pub-type-conf").length;
-    var preprintCount = document.querySelectorAll(".pub-type-preprint").length;
-    var totalCount    = journalCount + confCount;
+function updatePubStats() {
+  var journalCount  = document.querySelectorAll(".pub-type-journal").length;
+  var confCount     = document.querySelectorAll(".pub-type-conf").length;
+  var preprintCount = document.querySelectorAll(".pub-type-preprint").length;
+  var totalCount    = journalCount + confCount;
 
-    document.getElementById("count-total").textContent    = totalCount;
-    document.getElementById("count-journal").textContent  = journalCount;
-    document.getElementById("count-conf").textContent     = confCount;
-    document.getElementById("count-preprint").textContent = preprintCount;
-  })();
+  var elTotal    = document.getElementById("count-total");
+  var elJournal  = document.getElementById("count-journal");
+  var elConf     = document.getElementById("count-conf");
+  var elPreprint = document.getElementById("count-preprint");
+
+  // 确认元素存在再赋值
+  if (elTotal)    elTotal.textContent    = totalCount;
+  if (elJournal)  elJournal.textContent  = journalCount;
+  if (elConf)     elConf.textContent     = confCount;
+  if (elPreprint) elPreprint.textContent = preprintCount;
+}
+
+// 三重触发保险
+updatePubStats();                              // 1. 立即执行
+document.addEventListener("DOMContentLoaded", updatePubStats);  // 2. DOM 就绪
+window.addEventListener("load", updatePubStats);                 // 3. 全部加载完
 </script>
+
 
