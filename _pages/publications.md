@@ -121,7 +121,7 @@ author_profile: true
 
 
 <!-- ======= Stats Bar（数字由 JS 自动统计）======= -->
-<div class="pub-stats">
+<!-- <div class="pub-stats">
   <div class="pub-stat-item">
     <span class="pub-stat-num" id="count-total">—</span>
     <span class="pub-stat-label">Total Papers</span>
@@ -138,7 +138,38 @@ author_profile: true
     <span class="pub-stat-num" id="count-preprint">—</span>
     <span class="pub-stat-label">Preprint & Reviewing</span>
   </div>
+</div> -->
+<!-- ======= Stats Bar ======= -->
+{% assign journal_count = 0 %}
+{% assign conf_count = 0 %}
+{% assign preprint_count = 0 %}
+
+{% comment %} 每新增一篇论文，对应的 assign +1 {% endcomment %}
+{% assign journal_count = 2 %}    
+{% assign conf_count = 2 %}       
+{% assign preprint_count = 1 %}   
+
+{% assign total_count = journal_count | plus: conf_count %}
+
+<div class="pub-stats">
+  <div class="pub-stat-item">
+    <span class="pub-stat-num">{{ total_count }}</span>
+    <span class="pub-stat-label">Total Papers</span>
+  </div>
+  <div class="pub-stat-item">
+    <span class="pub-stat-num">{{ journal_count }}</span>
+    <span class="pub-stat-label">Journal Papers</span>
+  </div>
+  <div class="pub-stat-item">
+    <span class="pub-stat-num">{{ conf_count }}</span>
+    <span class="pub-stat-label">Conference Papers</span>
+  </div>
+  <div class="pub-stat-item">
+    <span class="pub-stat-num">{{ preprint_count }}</span>
+    <span class="pub-stat-label">Preprint & Reviewing</span>
+  </div>
 </div>
+
 
 
 <!-- ======= Journal Papers ======= -->
