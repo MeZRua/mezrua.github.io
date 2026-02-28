@@ -42,13 +42,9 @@ author_profile: true
   letter-spacing: 0.5px;
 }
 
-.pub-badge-journal {
-  background-color: #8e44ad;
-}
-
-.pub-badge-conf {
-  background-color: #2980b9;
-}
+.pub-badge-journal  { background-color: #8e44ad; }
+.pub-badge-conf     { background-color: #2980b9; }
+.pub-badge-preprint { background-color: #e67e22; }
 
 .pub-title {
   font-size: 1.0em;
@@ -93,14 +89,8 @@ author_profile: true
   border-color: #2980b9;
 }
 
-.pub-me {
-  font-weight: bold;
-  color: #2c3e50;
-}
-.pub-guid{
-  text-decoration: underline;
-  color: #2c3e50;
-}
+.pub-me   { font-weight: bold; color: #2c3e50; }
+.pub-guid { text-decoration: underline; color: #2c3e50; }
 
 .pub-stats {
   display: flex;
@@ -111,11 +101,10 @@ author_profile: true
   margin-bottom: 24px;
   font-size: 0.95em;
   color: #444;
+  flex-wrap: wrap;
 }
 
-.pub-stat-item {
-  text-align: center;
-}
+.pub-stat-item { text-align: center; }
 
 .pub-stat-num {
   font-size: 1.6em;
@@ -130,23 +119,24 @@ author_profile: true
 }
 </style>
 
-<!-- ======= Stats Bar ======= -->
+
+<!-- ======= Stats Bar（数字由 JS 自动统计）======= -->
 <div class="pub-stats">
   <div class="pub-stat-item">
-    <span class="pub-stat-num">4</span>
+    <span class="pub-stat-num" id="count-total">—</span>
     <span class="pub-stat-label">Total Papers</span>
   </div>
   <div class="pub-stat-item">
-    <span class="pub-stat-num">2</span>
+    <span class="pub-stat-num" id="count-journal">—</span>
     <span class="pub-stat-label">Journal Papers</span>
   </div>
   <div class="pub-stat-item">
-    <span class="pub-stat-num">2</span>
+    <span class="pub-stat-num" id="count-conf">—</span>
     <span class="pub-stat-label">Conference Papers</span>
   </div>
   <div class="pub-stat-item">
-    <span class="pub-stat-num">2024</span>
-    <span class="pub-stat-label">Latest Year</span>
+    <span class="pub-stat-num" id="count-preprint">—</span>
+    <span class="pub-stat-label">Preprint & Reviewing</span>
   </div>
 </div>
 
@@ -155,7 +145,7 @@ author_profile: true
 <div class="pub-section-title">📄 Journal Papers</div>
 
 <!-- J1 -->
-<div class="pub-card">
+<div class="pub-card pub-type-journal">
   <span class="pub-badge pub-badge-journal">IEEE JSTSP</span>
   <span class="pub-title">Adaptive Top-K in SGD for Communication-Efficient Distributed Learning in Multi-Robot Collaboration</span>
   <div class="pub-authors">
@@ -171,7 +161,7 @@ author_profile: true
 </div>
 
 <!-- J2 -->
-<div class="pub-card">
+<div class="pub-card pub-type-journal">
   <span class="pub-badge pub-badge-journal">ACM TOSN</span>
   <span class="pub-title">mmSign: mmWave-based Few-Shot Online Handwritten Signature Verification</span>
   <div class="pub-authors">
@@ -190,7 +180,7 @@ author_profile: true
 <div class="pub-section-title">🎤 Conference Papers</div>
 
 <!-- C1 -->
-<div class="pub-card">
+<div class="pub-card pub-type-conf">
   <span class="pub-badge pub-badge-conf">ICPADS 2024</span>
   <span class="pub-title">Optimal Power Control for Over-the-Air Federated Learning with Gradient Compression</span>
   <div class="pub-authors">
@@ -206,7 +196,7 @@ author_profile: true
 </div>
 
 <!-- C2 -->
-<div class="pub-card">
+<div class="pub-card pub-type-conf">
   <span class="pub-badge pub-badge-conf">GLOBECOM 2023</span>
   <span class="pub-title">Adaptive Top-K in SGD for Communication-Efficient Distributed Learning</span>
   <div class="pub-authors">
@@ -221,3 +211,44 @@ author_profile: true
     <a class="pub-link-btn" href="#" target="_blank">🎬 Video</a>
   </div>
 </div>
+
+
+<!-- ======= Preprint & Reviewing Papers ======= -->
+<div class="pub-section-title">📝 Preprint & Reviewing Papers</div>
+
+<!-- P1：示例，按格式添加即可 -->
+<div class="pub-card pub-type-preprint">
+  <span class="pub-badge pub-badge-preprint">Under Review</span>
+  <span class="pub-title">（你的 Preprint 论文标题）</span>
+  <div class="pub-authors">
+    <span class="pub-me">Mengzhe Ruan</span>, Co-author A, Co-author B
+  </div>
+  <div class="pub-venue">
+    🔄 Submitted to XXX Journal / Conference, 2025
+  </div>
+  <div class="pub-links">
+    <a class="pub-link-btn" href="#" target="_blank">📄 arXiv</a>
+  </div>
+</div>
+
+
+<!-- ======= 自动统计 JS ======= -->
+<script>
+  // 页面加载完成后自动计数
+  document.addEventListener("DOMContentLoaded", function () {
+
+    // 分别数三类卡片
+    const journalCount  = document.querySelectorAll(".pub-type-journal").length;
+    const confCount     = document.querySelectorAll(".pub-type-conf").length;
+    const preprintCount = document.querySelectorAll(".pub-type-preprint").length;
+
+    // Total = Journal + Conference（Preprint 不计入正式论文总数，可按需调整）
+    const totalCount = journalCount + confCount;
+
+    // 写入统计栏
+    document.getElementById("count-total").textContent    = totalCount;
+    document.getElementById("count-journal").textContent  = journalCount;
+    document.getElementById("count-conf").textContent     = confCount;
+    document.getElementById("count-preprint").textContent = preprintCount;
+  });
+</script>
