@@ -133,20 +133,21 @@ My research focuses on **distributed machine learning systems** and **distribute
 
 ## 📬 Contact
 
-<table style="border:none; width:auto;">
+<table style="border:none; width:auto; font-size: 1.15em; line-height: 2.0;">
   <tr style="border:none; background:none;">
-    <td style="border:none; padding: 4px 12px 4px 0;">📧 Email</td>
-    <td style="border:none; padding: 4px 0;"><code>cs.mzr [at] my [dot] cityu [dot] edu [dot] hk</code></td>
+    <td style="border:none; padding: 4px 16px 4px 0; white-space:nowrap;">📧 Email</td>
+    <td style="border:none; padding: 4px 0;"><code style="font-size: 0.95em;">cs.mzr [at] my [dot] cityu [dot] edu [dot] hk</code></td>
   </tr>
   <tr style="border:none; background:none;">
-    <td style="border:none; padding: 4px 12px 4px 0;">🏢 Office</td>
+    <td style="border:none; padding: 4px 16px 4px 0; white-space:nowrap;">🏢 Office</td>
     <td style="border:none; padding: 4px 0;">Yeung Kin Man Academic Building, G2326</td>
   </tr>
   <tr style="border:none; background:none;">
-    <td style="border:none; padding: 4px 12px 4px 0;">📍 Location</td>
+    <td style="border:none; padding: 4px 16px 4px 0; white-space:nowrap;">📍 Location</td>
     <td style="border:none; padding: 4px 0;">City University of Hong Kong, Hong Kong SAR</td>
   </tr>
 </table>
+
 
 ---
 
