@@ -265,41 +265,31 @@ author_profile: true
 
 <!-- ======= 自动统计 JS（修复版）======= -->
 <script>
-(function() {
-  var maxTries = 30;   // 最多尝试 30 次
-  var tries    = 0;
+document.addEventListener("DOMContentLoaded", () => {
+  const update = () => {
+    const j = document.querySelectorAll(".pub-type-journal").length;
+    const c = document.querySelectorAll(".pub-type-conf").length;
+    const p = document.querySelectorAll(".pub-type-preprint").length;
 
-  var timer = setInterval(function() {
-    tries++;
+    const elTotal    = document.getElementById("count-total");
+    const elJournal  = document.getElementById("count-journal");
+    const elConf     = document.getElementById("count-conf");
+    const elPreprint = document.getElementById("count-preprint");
 
-    var journalEls  = document.querySelectorAll(".pub-type-journal");
-    var confEls     = document.querySelectorAll(".pub-type-conf");
-    var preprintEls = document.querySelectorAll(".pub-type-preprint");
+    // 你原来 total 用 j+c，这里保持一致；如果你想“总数=含preprint”，改成 j+c+p
+    if (elTotal)    elTotal.textContent    = j + c;
+    if (elJournal)  elJournal.textContent  = j;
+    if (elConf)     elConf.textContent     = c;
+    if (elPreprint) elPreprint.textContent = p;
+  };
 
-    // 关键判断：卡片已经渲染出来了才写入
-    if (journalEls.length > 0 || confEls.length > 0 || tries >= maxTries) {
-
-      var j = journalEls.length;
-      var c = confEls.length;
-      var p = preprintEls.length;
-
-      var elTotal    = document.getElementById("count-total");
-      var elJournal  = document.getElementById("count-journal");
-      var elConf     = document.getElementById("count-conf");
-      var elPreprint = document.getElementById("count-preprint");
-
-      if (elTotal)    elTotal.textContent    = j + c;
-      if (elJournal)  elJournal.textContent  = j;
-      if (elConf)     elConf.textContent     = c;
-      if (elPreprint) elPreprint.textContent = p;
-
-      clearInterval(timer);  // 成功后停止
-      console.log("[PubStats] 更新成功，尝试次数：" + tries);
-    }
-
-  }, 300);  // 每 300ms 检查一次
-})();
+  // 有些主题会在 DOMContentLoaded 后再插入内容，下一帧再算一次更稳
+  requestAnimationFrame(update);
+  setTimeout(update, 300);
+  setTimeout(update, 1000);
+});
 </script>
+
 
 
 
