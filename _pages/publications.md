@@ -208,7 +208,7 @@ author_profile: true
 
 
 <!-- ======= Conference Papers ======= -->
-<div class="pub-section-title">📄 Conference Papers</div>
+<div class="pub-section-title">🎤 Conference Papers</div>
 
 <!-- C1 -->
 <div class="pub-card pub-type-conf">
@@ -261,6 +261,19 @@ author_profile: true
     <a class="pub-link-btn" href="#" target="_blank">📄 arXiv</a>
   </div> -->
 </div>
+<div class="pub-card pub-type-preprint">
+  <span class="pub-badge pub-badge-preprint">Revised</span>
+  <span class="pub-title">REGATE: Confidence-Calibrated Integration of Temporally-Aligned Exogenous Texts for Dynamic Graphs</span>
+  <div class="pub-authors">
+    Liangzu Liu, <span class="pub-me">Mengzhe Ruan</span>, Yinjun Wu, Yang Liu, Guanjun Wang 
+  </div>
+  <div class="pub-venue"> 
+    📮 Submitted to ACL 2026
+  </div>
+  <!-- <div class="pub-links">⏳
+    <a class="pub-link-btn" href="#" target="_blank">📄 arXiv</a>
+  </div> -->
+</div>
 
 
 <!-- ======= 自动统计 JS（修复版）======= 如果你的卡片是后续异步注入的：用 MutationObserver 如果你发现页面初始 HTML 里没有这些 .pub-card（由 JS/插件后插入），用这个更彻底：-->
@@ -271,18 +284,28 @@ document.addEventListener("DOMContentLoaded", () => {
     const c = document.querySelectorAll(".pub-type-conf").length;
     const p = document.querySelectorAll(".pub-type-preprint").length;
 
-    document.getElementById("count-total").textContent    = j + c + p;
-    document.getElementById("count-journal").textContent  = j;
-    document.getElementById("count-conf").textContent     = c;
-    document.getElementById("count-preprint").textContent = p;
+    const set = (id, val) => {
+      const el = document.getElementById(id);
+      if (el && el.textContent !== String(val)) el.textContent = String(val);
+    };
+
+    set("count-total", j + c);
+    set("count-journal", j);
+    set("count-conf", c);
+    set("count-preprint", p);
   };
 
-  update();
+  const obs = new MutationObserver(() => {
+    obs.disconnect();     // 防止回调-更新-回调的循环
+    update();
+    obs.observe(document.body, { childList: true, subtree: true });
+  });
 
-  const obs = new MutationObserver(() => update());
+  update();
   obs.observe(document.body, { childList: true, subtree: true });
 });
 </script>
+
 
 
 
