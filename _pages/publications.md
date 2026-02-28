@@ -177,7 +177,7 @@ author_profile: true
 
 
 <!-- ======= Conference Papers ======= -->
-<div class="pub-section-title">🎤 Conference Papers</div>
+<div class="pub-section-title">📄 Conference Papers</div>
 
 <!-- C1 -->
 <div class="pub-card pub-type-conf">
