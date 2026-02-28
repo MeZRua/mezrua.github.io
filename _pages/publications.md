@@ -255,7 +255,7 @@ author_profile: true
     <span class="pub-me">Mengzhe Ruan</span>, Yunhe LI, Hao Shi, Hanxu Hou, Jianping Wang, Weitao Xu, Linqi Song
   </div>
   <div class="pub-venue"> 
-    🔄 Submitted to ICML Conference 2025 hhh
+    🔄 Revising
   </div>
   <!-- <div class="pub-links">
     <a class="pub-link-btn" href="#" target="_blank">📄 arXiv</a>
