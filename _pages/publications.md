@@ -265,44 +265,42 @@ author_profile: true
 
 <!-- ======= 自动统计 JS（修复版）======= -->
 <script>
-function updatePubStats() {
-  var journalCount  = document.querySelectorAll(".pub-type-journal").length;
-  var confCount     = document.querySelectorAll(".pub-type-conf").length;
-  var preprintCount = document.querySelectorAll(".pub-type-preprint").length;
-  var totalCount    = journalCount + confCount;
+(function() {
+  var maxTries = 30;   // 最多尝试 30 次
+  var tries    = 0;
 
-  var elTotal    = document.getElementById("count-total");
-  var elJournal  = document.getElementById("count-journal");
-  var elConf     = document.getElementById("count-conf");
-  var elPreprint = document.getElementById("count-preprint");
+  var timer = setInterval(function() {
+    tries++;
 
-  if (elTotal)    elTotal.innerHTML    = "<strong>" + totalCount    + "</strong>";
-  if (elJournal)  elJournal.innerHTML  = "<strong>" + journalCount  + "</strong>";
-  if (elConf)     elConf.innerHTML     = "<strong>" + confCount     + "</strong>";
-  if (elPreprint) elPreprint.innerHTML = "<strong>" + preprintCount + "</strong>";
-}
+    var journalEls  = document.querySelectorAll(".pub-type-journal");
+    var confEls     = document.querySelectorAll(".pub-type-conf");
+    var preprintEls = document.querySelectorAll(".pub-type-preprint");
 
-// 多个时间点重复执行，确保主题 JS 重绘后仍能覆盖
-updatePubStats();
-setTimeout(updatePubStats, 100);
-setTimeout(updatePubStats, 500);
-setTimeout(updatePubStats, 1000);
-setTimeout(updatePubStats, 2000);   // 最后兜底
+    // 关键判断：卡片已经渲染出来了才写入
+    if (journalEls.length > 0 || confEls.length > 0 || tries >= maxTries) {
 
-// 用 MutationObserver 监听 DOM 变化：主题重绘后自动重新写入
-var targetEl = document.getElementById("count-total");
-if (targetEl && window.MutationObserver) {
-  var observer = new MutationObserver(function(mutations) {
-    mutations.forEach(function(m) {
-      // 如果内容被清空或改回 "—"，立刻恢复
-      if (m.target.textContent === "—" || m.target.textContent === "") {
-        updatePubStats();
-      }
-    });
-  });
-  observer.observe(document.getElementById("count-total"), { childList: true, characterData: true, subtree: true });
-}
+      var j = journalEls.length;
+      var c = confEls.length;
+      var p = preprintEls.length;
+
+      var elTotal    = document.getElementById("count-total");
+      var elJournal  = document.getElementById("count-journal");
+      var elConf     = document.getElementById("count-conf");
+      var elPreprint = document.getElementById("count-preprint");
+
+      if (elTotal)    elTotal.textContent    = j + c;
+      if (elJournal)  elJournal.textContent  = j;
+      if (elConf)     elConf.textContent     = c;
+      if (elPreprint) elPreprint.textContent = p;
+
+      clearInterval(timer);  // 成功后停止
+      console.log("[PubStats] 更新成功，尝试次数：" + tries);
+    }
+
+  }, 300);  // 每 300ms 检查一次
+})();
 </script>
+
 
 
 
