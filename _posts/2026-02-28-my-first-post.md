@@ -2,6 +2,8 @@
 title: "我的第一篇博客"
 date: 2026-02-28
 permalink: /posts/2026/02/first-post/
+layout: post          # ← 关键：指定使用新布局
+mathjax: true
 tags:
   - 随笔
   - 研究
@@ -18,3 +20,4 @@ $$E = mc^2$$
 
 ```python
 print("Hello Blog!")
+```
