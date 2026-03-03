@@ -80,12 +80,68 @@
       --accent:       #6c5ce7;
       --accent-dim:   rgba(108,92,231,0.10);
       --accent2:      #00b894;
-      --text:         #2d3056;
-      --text-muted:   #6b7099;
+      --text:         #1a1d2e;        /* ← 正文更深 */
+      --text-muted:   #4a4e6a;        /* ← 次要文字更深 */
       --text-faint:   #a0a4c0;
       --tag-bg:       rgba(108,92,231,0.08);
       --tag-color:    #6c5ce7;
       --shadow:       0 4px 24px rgba(0,0,0,0.08);
+    }
+
+    /* ── 标题颜色 ── */
+    [data-theme="light"] .post-body h1,
+    [data-theme="light"] .post-body h2,
+    [data-theme="light"] .post-body h3,
+    [data-theme="light"] .post-body h4,
+    [data-theme="light"] .post-body h5,
+    [data-theme="light"] .post-body h6 {
+      color: #0f1120 !important;      /* 接近纯黑，清晰有力 */
+    }
+
+    /* h2 下划线装饰色保持不变（accent渐变），无需改动 */
+
+    /* ── 加粗文字 ── */
+    [data-theme="light"] .post-body strong {
+      color: #0f1120 !important;      /* 纯深色，对比鲜明 */
+      font-weight: 700;
+    }
+    
+    /* ── 斜体 ── */
+    [data-theme="light"] .post-body em {
+      color: #2d3250 !important;
+    }
+    
+    /* ── 正文段落 ── */
+    [data-theme="light"] .post-body p,
+    [data-theme="light"] .post-body li {
+      color: #1a1d2e !important;
+    }
+    
+    /* ── MathJax 公式 ── */
+    [data-theme="light"] .MathJax,
+    [data-theme="light"] mjx-container,
+    [data-theme="light"] mjx-container * {
+      color: #0f1120 !important;      /* 公式强制深色 */
+    }
+    
+    /* ── 引用块文字 ── */
+    [data-theme="light"] .post-body blockquote,
+    [data-theme="light"] .post-body blockquote p {
+      color: #2d3250 !important;
+    }
+    
+    /* ── Hero 区大标题 ── */
+    [data-theme="light"] .post-hero-title {
+      color: #0a0c1a !important;
+    }
+    
+    /* ── TOC 目录链接 ── */
+    [data-theme="light"] .toc-link {
+      color: #4a4e6a !important;
+    }
+    [data-theme="light"] .toc-link:hover,
+    [data-theme="light"] .toc-link.active {
+      color: var(--accent) !important;
     }
     
     [data-theme="light"] body {
